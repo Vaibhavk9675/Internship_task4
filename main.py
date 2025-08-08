@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 # In-memory user data
 users = [
-    {"id": 1, "name": "John Doe", "email": "john@example.com"},
-    {"id": 2, "name": "Jane Smith", "email": "jane@example.com"}
+    {"id": 1, "name": "John int", "email": "john@int.com"},
+    {"id": 2, "name": "Jane float", "email": "jane@float.com"}
 ]
 
 # Helper: Find user by ID
